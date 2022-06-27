@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+
+}
+.bg-cont{
+  height:100vh;
+
+}
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  padding: 15px;
+  height: 100vh;
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  
+}
+.container{
+  max-width: 576px;
+  margin: 0 auto;
+}
+.cardQuotes{
+  background-color: white;
+  margin: 0 auto;
+  min-width: 310px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px #000;
+}
+.Cardss{
+  border-radius: 2rem;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  width: 350px;
+  padding: 1rem;
+}
+.author{
+  text-align: end;
+}
+.quote{
+  width: 16.66%;
+}
+.d-flex{
+  display: flex;
+}
+.d-flex div{
+  padding: 0 5px;
+}
+.author{
+  font-style: italic;
+  margin: 20px 0 6px;
+}
+.buttonCont{
+  justify-content: space-between;
+  padding: 5px 15px ;
+}
+
+.fa-solid{
+  font-size: 3rem;
+}
+button{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  color: white;
+  font-weight: bold;
+}
+.info{
+  text-align: left;
+  width: 100%;
+}
+.Change{
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+}
+.bombilla{
+  background-color: red ;
+  height: 300px;
+  width: 300px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.card {
+  background: lightgreen;
+  width: 350px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.bg-blue {
+  background: lightblue;
+}
+
+.bg-yellow {
+  background: yellow;
+}
+
+.bg-gray {
+  background: gray;
+}
+
+.bulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
